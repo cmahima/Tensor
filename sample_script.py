@@ -40,6 +40,7 @@ while(true):
         text = msg.as_string()
         server.sendmail(fromaddr, toaddr, text)
         server.quit()
+        
         print(res)
 
        
