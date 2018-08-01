@@ -14,7 +14,7 @@ import glob
 
 #start=time.time()
 if __name__ == '__main__':
-    url = 'http://192.168.0.101:5000'
+    url = ''
     t = Tensor(url)
     imgs=[]
     i=0
