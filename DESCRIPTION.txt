@@ -1,0 +1,26 @@
+tensor
+
+---------
+---------
+A simple python application to take pictures from Pi and classify them
+
+Compatible with Python 3 or Python 2
+
+Installation
+--------------
+
+Fast install:
+
+:: 
+
+  pip install tensor_client
+
+For manual installation get this package:
+::
+
+  wget https://github.com/cmahima/Tensor/archive/Tensor.zip
+  unzip Tensor.zip
+  rm Tensor.zip
+  cd Tensor-Tensor
+  
+
