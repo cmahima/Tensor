@@ -1,4 +1,4 @@
-
+cd tensor_client
 
 python video.py & python test.py ; fg
 killall python video.py
