@@ -14,7 +14,7 @@ import glob
 from light import LED
 #start=time.time()
 if __name__ == '__main__':
-    url = 'http://130.63.174.60:5000'
+    url = ''
     t = Tensor(url)
     imgs=[]
     i=0
