@@ -11,7 +11,7 @@ from email.MIMEBase import MIMEBase
 from email import encoders
 import time
 import glob
-#from light import LED
+from light import LED
 #start=time.time()
 if __name__ == '__main__':
     url = 'http://130.63.174.60:5000'
@@ -117,6 +117,6 @@ while (1):
       print(res+ imgs[i])
      # os.remove(imgs[i])
       i+=1
-      #l=LED()
-      #LED.lit(l,maxnum)
+      l=LED()
+      LED.lit(l,maxnum)
       
