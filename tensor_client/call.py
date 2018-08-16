@@ -92,8 +92,8 @@ while (1):
       #f resp.endswith('}'):
       #os.remove(image)
      # print('hi')
-      fromaddr = "cmahima848@gmail.com"
-      toaddr = "mahimachaudhary966@gmail.com"
+      fromaddr = ""
+      toaddr = ""
       msg = MIMEMultipart()
       msg['From'] = "tensor"
       msg['To'] = "flow" 
@@ -110,7 +110,7 @@ while (1):
       msg.attach(part)
       server = smtplib.SMTP('smtp.gmail.com', 587)
       server.starttls()
-      server.login(fromaddr, "7900567892")
+      server.login(fromaddr, "")
       text = msg.as_string()
       server.sendmail(fromaddr, toaddr, text)
       server.quit()
