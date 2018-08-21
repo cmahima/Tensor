@@ -1,5 +1,4 @@
 from tensor import Tensor
-from PIL import Image
 import os, os.path
 import random
 from email.mime.text import MIMEText
@@ -20,12 +19,9 @@ if __name__ == '__main__':
     i=0
 
     
-    #folder="home/turtle/Desktop"
 while (1):
       time.sleep(5)
-    #for filename in os.listdir("/home/turtle/images"):
-     # img=random.choice(os.listdir("/home/turtle/images"))
-    # for filename in os.listdir("/home/turtle/images/"):
+   
       imgs.append(os.path.join("/home/mahima/images/frame_" + str(i)+ ".jpg"))
        
 #      sleep(1)
@@ -87,11 +83,7 @@ while (1):
       os.system("espeak 'person'")
       os.system("espeak 'is'")
       os.system("espeak "+ str3)
-     #rep=repr(res)
-     #print (rep)
-      #f resp.endswith('}'):
-      #os.remove(image)
-     # print('hi')
+     
       fromaddr = ""
       toaddr = ""
       msg = MIMEMultipart()
