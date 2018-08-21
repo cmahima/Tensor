@@ -1,5 +1,4 @@
 from tensor import Tensor
-from PIL import Image
 import os, os.path
 import random
 from email.mime.text import MIMEText
@@ -20,10 +19,7 @@ if __name__ == '__main__':
     i=0
     #folder="home/turtle/Desktop"
 while (1):
-      time.sleep(2)
-    #for filename in os.listdir("/home/turtle/images"):
-     # img=random.choice(os.listdir("/home/turtle/images"))
-    # for filename in os.listdir("/home/turtle/images/"):
+     
       imgs.append(os.path.join("/home/turtle/images/image" + str(i)+ ".jpg"))
        
 #      sleep(1)
