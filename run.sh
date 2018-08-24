@@ -16,7 +16,7 @@ then
  sleep 3
  cd tensor_client
  python video.py #& python test.py ; fg
- python test.py 
+ python call.py 
  killall python video.py
  rm -rf /home/turtle/images/*
 
