@@ -107,7 +107,7 @@ while (1):
       server.sendmail(fromaddr, toaddr, text)
       server.quit()
       print(res+ imgs[i])
-     # os.remove(imgs[i])
+      os.remove(imgs[i])
       i+=1
       l=LED()
       LED.lit(l,maxnum)
