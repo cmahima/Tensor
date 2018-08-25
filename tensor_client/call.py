@@ -44,7 +44,7 @@ while (1):
       n=resp.count(':')
       #print(n)
     #  while(1):
-      for z in range(10):
+      for z in range(n):
         #print("hi")
         index1=res.find(':',j,l-1)
         
